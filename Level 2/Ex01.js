@@ -4,3 +4,5 @@ function buyItem(itemName, price) {
 }
 
 buyItem("Sword", 50);
+
+buyItem("Shield", 30);
