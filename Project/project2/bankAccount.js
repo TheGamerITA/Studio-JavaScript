@@ -1,4 +1,4 @@
-bankAccount = {
+let bankAccount = {
     owner: "Lollo",
     balance: 1000,
     transactions: []
@@ -21,8 +21,8 @@ function withdraw(amount) {
 }
 
 function displayTransactions() {
-    for (let i = 0; i < bankAccount.transactions.leight; i++) {
-        transaction = bankAccount.transactions[i];
+    for (let i = 0; i < bankAccount.transactions.length; i++) {
+        const transaction = bankAccount.transactions[i];
         console.log(`Transaction: ${transaction.type}, Amount: ${transaction.amount}`)
     }
 }
